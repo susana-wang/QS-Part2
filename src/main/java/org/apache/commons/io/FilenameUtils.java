@@ -1669,7 +1669,7 @@ public class FilenameUtils {
      * @return true if the file name matches the wildcard string.
      * @see IOCase#SYSTEM
      */
-    public static boolean wildcardMatchOnSystem(final String fileName, final String wildcardMatcher) {
+    public static boolean isExtensionOnSystem(final String fileName, final String wildcardMatcher) {
         return wildcardMatch(fileName, wildcardMatcher, IOCase.SYSTEM);
     }
 
